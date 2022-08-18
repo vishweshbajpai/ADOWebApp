@@ -1,0 +1,6 @@
+C:\Users\vishwesh.b\source\repos\ADOWebApplicationSLN\MainModels\obj\Debug\MainModels.csproj.AssemblyReference.cache
+C:\Users\vishwesh.b\source\repos\ADOWebApplicationSLN\MainModels\obj\Debug\MainModels.csproj.CoreCompileInputs.cache
+C:\Users\vishwesh.b\source\repos\ADOWebApplicationSLN\MainModels\bin\Debug\MainModels.dll
+C:\Users\vishwesh.b\source\repos\ADOWebApplicationSLN\MainModels\bin\Debug\MainModels.pdb
+C:\Users\vishwesh.b\source\repos\ADOWebApplicationSLN\MainModels\obj\Debug\MainModels.dll
+C:\Users\vishwesh.b\source\repos\ADOWebApplicationSLN\MainModels\obj\Debug\MainModels.pdb

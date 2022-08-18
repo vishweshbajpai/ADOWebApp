@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ADOWebApplication.DataModels.MizzaToppingsStyleSKU>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ToppingStyleID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ToppingSKUID)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ToppingStyleID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ToppingSKUID)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id1=item.ToppingStyleID, id2=item.ToppingSKUID }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>
